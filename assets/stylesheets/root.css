@@ -1,12 +1,8 @@
 * {
     font-family: "Proxima Nova", sans-serif;
     color: white;
-    --brand-red: #F73E2A;
-    --brand-orange: #F77C2A;
-    --brand-yellow: #F7F02A;
-    --brand-green: #2AF7A1;
-    --brand-blue: #2A56F7;
-    --brand-purple: #2A56F7;
+    --accent: #6CE8F7;
+    --accent-white: #D2EAED;
 }
 body {
     background-color: #202020;
@@ -64,9 +60,13 @@ h4 {
 
 a {
     text-decoration: underline;
-    text-decoration-color: var(--brand-green);
+    text-decoration-color: var(--accent);
     transition: 0.25s;
 }
 a:hover {
-    color: var(--brand-green)
+    color: var(--accent)
+}
+
+.hidden {
+    display: none;
 }

@@ -7,7 +7,7 @@ li {
     margin-top: 2em;
 }
 .guide-channel {
-    width: 6em;
+    width: 120px;
     height: 100%;
     text-align: center;
     border-right: .125em solid #202020;
@@ -20,6 +20,7 @@ li {
     top: 50%;
     transform: translate(0,-50%);
     text-align: center;
+    color: var(--accent-white);
 }
 .guide-program {
     font-weight: normal;
@@ -28,7 +29,7 @@ li {
     top: -50%;
     transform: translate(0,-50%);
     text-align: left;
-    margin-left: 6em;
+    margin-left: 136px;
 }
 .guide-number {
     font-weight: normal;
@@ -41,4 +42,9 @@ li {
 }
 li::marker {
     color: transparent;
+}
+
+.channel-image {
+    height: 48px;
+    width: auto;
 }
