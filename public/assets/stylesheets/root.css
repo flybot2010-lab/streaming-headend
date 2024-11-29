@@ -7,12 +7,11 @@
 body {
     background-color: #202020;
     margin: 0;
-    
 }
 .main {
-    margin: auto;
-    text-align: left;
-    margin: 7.5em 10em;
+    text-align: center;
+    margin: 7.5em auto;
+    width: 640px;
 }
 header {
     height: 2em;
@@ -24,9 +23,7 @@ header {
     position: fixed;
     top: 0;
     left: 50;
-}
-.hero-image {
-    height: 11.25em;
+    display: flex;
 }
 @font-face {
     font-family: 'Proxima Nova', sans-serif;
@@ -56,8 +53,8 @@ h4 {
 }
 .headerlogo {
     height: 2em;
+    margin-right: 12px;
 }
-
 a {
     text-decoration: underline;
     text-decoration-color: var(--accent);
@@ -66,7 +63,24 @@ a {
 a:hover {
     color: var(--accent)
 }
-
 .hidden {
     display: none;
+}
+.guide-item {
+    height: 3em;
+    background-color: #00000040;
+    margin-bottom: .125em;
+}
+.header-btn {
+    color: #101010;
+    height: 32px;
+    vertical-align: top;
+    background-color: #D2EAED;
+    border: none;
+    border-radius: 4px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.header-link {
+    text-decoration: none;
 }

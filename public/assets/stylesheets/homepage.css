@@ -1,0 +1,25 @@
+.landing-item {
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.hero {
+    background-image: url("/assets/images/landing.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-logo {
+    width: auto;
+    height: 20%;
+    z-index: 3;
+    position: relative;
+    top: 40%;
+}
